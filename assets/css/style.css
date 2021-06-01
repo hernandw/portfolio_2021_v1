@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#navbar {
+    background-color: #008B8B;
+}
+
+header img {
+    width: 1048px;
+    height: 737px;
+}
