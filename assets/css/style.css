@@ -4,11 +4,12 @@
     box-sizing: 0;
 }
 
-#navbar {
+.navbar {
     background-color: #008B8B;
 }
 
-header img {
-    width: 1048px;
-    height: 737px;
+.navbar-brand {
+    font-size: 40px;
+    font-family: 'Oswald';
+    font-weight: bold;
 }
