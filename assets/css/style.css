@@ -72,6 +72,15 @@ font-weight: bold;
     color: blueviolet;
 }
 
+#lastwork {
+    background-color: #008B8B;
+}
+
+#lastwork hr {
+    width: 115px;
+    height: 1px;
+}
+
 
 
 @media (max-width: 576px) {
