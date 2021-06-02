@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    /* box-sizing: 0; */
 }
 
 .navbar {
@@ -12,4 +12,75 @@
     font-size: 40px;
     font-family: 'Oswald';
     font-weight: bold;
+}
+
+#hero-section {
+    height: 100vh;
+    background: url(../img/viaje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-section div {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+}
+
+
+#hero-section h1, #hero-section h2 {
+    font-size: 72px;
+    font-family: 'Oswald';
+    font-weight: 200;
+}
+
+#hero-section hr{
+    width: 350px;
+    height: 1px;
+    margin: auto;
+}
+
+#hero-section h2 {
+font-weight: bold;
+}
+
+#aboutme hr {
+    width: 115px;
+    margin: auto;
+    height: 1px;
+}
+
+#aboutme h4, #aboutme div:last-child{
+    font-family: 'Open Sans';
+    line-height: 3;
+}
+
+#aboutme h4 {
+    font-weight: 600;
+}
+
+#experience hr {
+    width: 115px;
+    border: 1px solid;
+    background-color: black;
+    margin: auto;
+}
+
+#experience i {
+    color: blueviolet;
+}
+
+
+
+@media (max-width: 576px) {
+    #hero-section h1, #hero-section h2 {
+        font-size: 40px;
+}
+
+#hero-section hr{
+    width: 200px;
+    height: 1px;
+}
 }
