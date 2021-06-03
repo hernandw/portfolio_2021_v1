@@ -30,8 +30,12 @@
 }
 
 
-#hero-section h1, #hero-section h2 {
-    font-size: 72px;
+#hero-section h1, 
+#hero-section h2,
+#lastwork h2,
+#experience h2,
+#contact h2 {
+    font-size: 52px;
     font-family: 'Oswald';
     font-weight: 200;
 }
@@ -81,6 +85,25 @@ font-weight: bold;
     height: 1px;
 }
 
+#lastwork h5 {
+    font-family: 'Oswald';
+}
+
+#contact hr {
+    width: 150px;
+    height: 1px;
+    margin: auto;
+}
+
+#footer {
+    background-color: #008B8B;
+}
+
+#footer i {
+    color: white;
+}
+
+
 
 
 @media (max-width: 576px) {
@@ -91,5 +114,6 @@ font-weight: bold;
 #hero-section hr{
     width: 200px;
     height: 1px;
+    margin: auto;
 }
 }
