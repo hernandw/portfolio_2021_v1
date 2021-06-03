@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("a").click(function(event){
+    $("li > a").click(function(event){
 event.preventDefault();
 
 var gato = this.hash;
@@ -13,3 +13,11 @@ $("html").animate({
     });
 
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
